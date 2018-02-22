@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body,html{
+	font-family: Roboto;
+}
+
+#appContainer{
+	padding: 0px;
+}
+#appContainer .row{
+	padding: 0px;
+	margin-right: 0px;
+}
+#appContainer .row .col-xs-12{
+    padding-right: 0px;
+	/*margin-right: 0px;*/
+}
+
+#pageContent{
+	background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer {
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	/*position: absolute;*/
+	background: rgba(26,29,37,1);
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 12px;
+	text-align: center;
+}
+footer .container{
+	font-size:20px;
+}

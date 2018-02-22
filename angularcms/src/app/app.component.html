@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<app-admin-navbar *ngIf="!front"></app-admin-navbar>
+<div id="appContainer" class="container-fluid">
+    <div class="row">
+        <div  id="pageContent" class="col-xs-12" [class.space]="!front">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+<footer>
+  <div class="container">©2018 Created by <a target="_blank" href="http://www.laczovics.hu/">Istvan Laczovics</a></div>
+
+</footer>

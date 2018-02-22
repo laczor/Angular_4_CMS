@@ -1,0 +1,16 @@
+<div  *ngIf="hasSidebar">
+	<div class="col-xs-12">
+	    <div class="col-xs-8">
+	        <div [innerHTML]="pageBody?.content"></div>
+	    </div>
+	    <div class="col-xs-4">
+	        <div [innerHTML]="sidebar"></div>
+	    </div>
+    </div>
+</div>
+
+<div *ngIf="!hasSidebar">
+    <div class="col-xs-12">
+        <div [innerHTML]="pageBody?.content"></div>
+    </div>
+</div>
